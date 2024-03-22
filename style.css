@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    margin: 0;
+    width: 1000px;
+    }
+    .img-bags {
+        width: 1350px;
+        height: 300px;
+        size: cover;
+        }
+.home-links {
+    text-align: right;
+    flex: 1;
+}
+.home-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.home-links ul li a{
+    color: darkblue;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home-links ul li::after{
+    content: '';
+    height: 2px;
+    margin: auto;
+    display: block;
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/bags.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 60rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.home .content h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+.about .row.content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.about .row .content h2{
+    font-size: 3rem;
+    color: antiquewhite;
+    background-color: darkgreen;
+}
+.about .row .content p{
+    font-size: 3rem;
+    color: beige;
+    padding: 1rem 0;
+    line-height: 1.8;
+    background-color: darkolivegreen;
+}
